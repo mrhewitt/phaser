@@ -20,7 +20,7 @@ Turtles.Preloader.prototype = {
 		this.load.image('left', 'images/3.png');
 		this.load.image('water', 'images/17.png');
 		this.load.image('turtle', 'images/Mushroom_1.png');
-		this.load.image('player', 'images/girl.png');
+		this.load.atlasJSONHash('player', 'images/sprites.png', 'sprites.json');
 	},
 
 	create: function () {
